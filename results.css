@@ -9,10 +9,13 @@ div.headtop {
   background-color: #f1f1f1;
   width: auto;
   display: block;
+  border-bottom: 1px solid #ebebeb;
 }
 
 div.headtoplogo {
   float: left;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 div.headtopform{
@@ -29,13 +32,23 @@ div.headtopform{
   border-bottom: 1px solid #f1f1f1;
 }
 
+.headbottomleft {
+  float: left;
+}
+.headbottomleft li:first-child {
+  margin: 0 8px 0 128px;
+}
+
 .headbottomleft li {
   display: inline;
+  margin: 0 8px;
+  padding: 0 8px;
+  line-height: 60px;
 }
 
 .main {
   width: 600px;
-  margin-left: 120px;
+  margin-left: 136px;
 }
 
 #results {
@@ -61,7 +74,7 @@ div.headtopform{
 }
 
 .main-bottom {
-  border-top: 1px solid #f1f1f1;
+  border-top: 1px solid #ebebeb;
 }
 
 h3 {
@@ -74,4 +87,58 @@ h3 {
 .google img {
   display: block;
   margin: auto;
+  height: 146.297px;
+  width: 350px;
+}
+
+.headtopnav {
+  float: right;
+}
+
+.headtopnav img {
+  float: right;
+}
+
+footer {
+  height: 84px;
+  background-color: #f1f1f1;
+  width: auto;
+  display: block;
+  border-top: 1px solid #ebebeb;
+}
+
+.headbottomright {
+  float: right;
+}
+
+.headbottomright li {
+  display: inline;
+}
+
+table {
+  width: 300px;
+}
+
+td p {
+  font-size: 13px;
+  font-weight: bold;
+  color: #1a0dab;
+}
+
+footer {
+  padding-left: 136px;
+}
+footer p {
+  float: left;
+}
+
+footer ul {
+  clear: left;
+}
+
+footer li {
+  display: inline;
+  margin: 0 8px;
+  padding: 0 8px;
+  line-height: 60px;
 }
